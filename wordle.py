@@ -16,7 +16,6 @@ for intento in range(intentos):
     if len(guess) != len(palabra_secreta):
         print("La palabra debe tener", len(palabra_secreta), "letras.")
         continue
-
     # Compara letra por letra
     resultado = ""
     for i in range(len(palabra_secreta)):
